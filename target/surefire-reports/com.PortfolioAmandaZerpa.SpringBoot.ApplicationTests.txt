@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.PortfolioAmandaZerpa.SpringBoot.ApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 45.56 s - in com.PortfolioAmandaZerpa.SpringBoot.ApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 47.25 s - in com.PortfolioAmandaZerpa.SpringBoot.ApplicationTests
