@@ -47,8 +47,8 @@ public WebMvcConfigurer corsConfigurer() {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
       registry.addMapping("/**")
-        .allowedOrigins("https://azportafolio-19a6e.web.app/", "http://localhost:4200")
-        .allowedMethods("*");
+        .allowedMethods("*").allowedOrigins("https://azportafolio-19a6e.web.app/", "http://localhost:4200")
+        .allowedHeaders("*");
     }
   };
 }
