@@ -18,14 +18,15 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/personas")
-@CrossOrigin(origins = "*")
-public class PersonaController {git add .
+@CrossOrigin(origins ="*")
+public class PersonaController {
     @Autowired IPersonaService ipersonaService;
     
     @GetMapping("/personas/traer")
     public List<Persona> getPersona(){
         return ipersonaService.getPersona();
     }
+    
     
     @RolesAllowed("ROLE_ADMIN")
     @PostMapping("/personas/crear")
